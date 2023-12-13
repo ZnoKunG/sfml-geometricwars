@@ -16,10 +16,10 @@ All codes are built from the ground up and it is quite challenging in both my C+
 
 
 # How to Play
-[W] : move up
-[S] : move down
-[A] : move left
-[D] : move right
-[LMB] : shoot bullet
-[RMB] : special weapon (have cooldown)
-[ESC] : exit the game
+- [W] : move up
+- [S] : move down
+- [A] : move left
+- [D] : move right
+- [LMB] : shoot bullet
+- [RMB] : special weapon (have cooldown)
+- [ESC] : exit the game
