@@ -14,6 +14,13 @@ There are several aspects which can be improved and optimized for example, in th
 
 All codes are built from the ground up and it is quite challenging in both my C++ unfamiliarity and complicated project architectural design. This game engine has no UI to adjust value but it is configured by config.txt to change and play around with the value in the game.
 
+# Configuration File
+- Window (width) (height) (frame limit) (is full screen mode)
+- Font (font file) (font size) (r) (g) (b)
+- Player (shape radius) (collision radius) (fill color) (outline color) (outline thickness) (shape vertices) (speed)
+- Enemy (shape radius) (collision radius) (outline color) (outline thickness) (min vertices) (max vertices) (small lifespan) (spawn interval(in frames)) (min speed) (max speed)
+- Bullet (shape radius) (collsiion radius) (fill color) (outline color) (outline thickness) (shape vertices) (lifespan (in frames)) (speed)
+- Special (shape radius) (collsiion radius) (speed) (fill color) (outline color) (outline thickness) (shape vertices) (trigger duration) (trigger radius) (cooldown) (speed) (vec2 trigger pos)
 
 # How to Play
 - [W] : move up
