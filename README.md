@@ -6,9 +6,9 @@ This project architecture composes of following:
 
     GameEngine               	  # Read config file and run all system functions
     ├── Systems             	  # Access entity manager to get certain type of entity and implement logics on the component
-       ├── EntityManager          # Manage entities including create new entity, remove entity, and provide entity for system to use
+        ├── EntityManager          # Manage entities including create new entity, remove entity, and provide entity for system to use
            ├── Entity          	  # Contain all components which can be modified from system
-   		       ├── Component 	  # composes of many components which can be attached to any entity. Ex.player has CTransform, CShape, CCollision, CInput
+               ├── Component 	  # composes of many components which can be attached to any entity. Ex.player has CTransform, CShape, CCollision, CInput
 
 There are several aspects which can be improved and optimized for example, in the entity class it just stores all components. We can use std::vector or std::tuple to store all components and provide functions to add and get components.
 
