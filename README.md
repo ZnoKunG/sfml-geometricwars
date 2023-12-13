@@ -1,4 +1,4 @@
-# SFML Geometry Wars
+# SFML Geometry Battles
 This is a 2D shooting game created using C++ and SFML. This is based on a simple 2D game engine using ECS architecture where it can create entity and attach components to it.
 
 This project architecture composes of following:
