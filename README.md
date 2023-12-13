@@ -13,3 +13,13 @@ This project architecture composes of following:
 There are several aspects which can be improved and optimized for example, in the entity class it just stores all components. We can use std::vector or std::tuple to store all components and provide functions to add and get components.
 
 All codes are built from the ground up and it is quite challenging in both my C++ unfamiliarity and complicated project architectural design. This game engine has no UI to adjust value but it is configured by config.txt to change and play around with the value in the game.
+
+
+# How to Play
+[W] : move up
+[S] : move down
+[A] : move left
+[D] : move right
+[LMB] : shoot bullet
+[RMB] : special weapon (have cooldown)
+[ESC] : exit the game
